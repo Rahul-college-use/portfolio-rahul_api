@@ -10,10 +10,7 @@ const port = process.env.PORT || 3001;
 dns.setServers(['8.8.8.8', '1.1.1.1']);
 
 // Middleware
-app.use(cors(),{
-    origin: ["https://portfolio-rahul-mu.vercel.app/","https://post-project-in-portfolio-app.vercel.app/"], // Allow all origins (for development)
-    credentials: true, // Allow credentials (cookies, authorization headers)
-});
+app.use(cors());
 app.use(express.json());
 
 // ✅ MongoDB Connection
