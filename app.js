@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 // ✅ MongoDB Connection
-mongoose.connect('mongodb+srv://portfolio_Api:OQwdVOh2D2Ltp01a@portfolioapi.hizjbay.mongodb.net/?appName=portfolioApi')
+mongoose.connect('mongodb+srv://portfolio_Api:rahul1234@portfolioapi.hizjbay.mongodb.net/?appName=portfolioApi')
     .then(() => console.log("MongoDB Connected"))
     .catch(err => console.log(err));
 
